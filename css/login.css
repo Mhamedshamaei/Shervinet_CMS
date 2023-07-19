@@ -1,0 +1,92 @@
+
+.login-title h1{
+    margin-top: 150px;
+    color: #404040;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.login-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-input-inp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 315px !important;
+    height: 45px;
+    font-size: 12px !important;
+}
+.login-input-btn{
+    background-color: #1faa73 !important;
+    transition: color 1s;
+    width: 95px !important;
+    color: white !important;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.login-input-btn:hover{
+    background-color: #1c9967 !important;
+    color: white !important;
+}
+.login-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-button button{
+    height: 45px;
+    transition: all .5s;
+    margin-top: 20px;
+}
+.login-button a{
+    height: 45px;
+    transition: all .5s;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-button .first-input-btn{
+    background-color: #e7ac44 !important;
+    width: 170px;
+    margin-right: 22px;
+}
+.login-button .first-input-btn:hover{
+    background-color: #d7951d !important;
+}
+.login-button .secend-input-btn{
+    background-color: #3aafe2 !important;
+    width: 90px;
+}
+.login-button .secend-input-btn:hover{
+    background-color: #1288b8 !important;
+}
+.login-text p{
+    color: gray;
+    font-size: 14px;
+    margin-top: 45px;
+    margin-bottom: 150px;
+}
+.login-text p a{
+    text-decoration: none;
+    color: #3aafe2;
+    font-weight: bold;
+    transition: color .5s;
+
+}
+.login-text p a:hover{
+    color: #3093bd;
+    border-bottom: 2px solid #31a6d8;
+}
+.alert-box{
+    margin: 0 0 !important;
+}
+.hide-alert-box{
+    cursor: default;
+    visibility: hidden;
+    color: rgb(85, 112, 87);
+}

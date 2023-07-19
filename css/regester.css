@@ -1,0 +1,282 @@
+#regester{
+    overflow: hidden;
+}
+.regester-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.regester-title h1{
+    margin-top: 150px;
+    color: #404040;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.regester-description p{
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+    font-weight: 600;
+}
+.regester-description p span{
+    color: #3aafe2;
+    transition: color .5s;
+    cursor: pointer;
+}
+.regester-description p span:hover{
+    color: rgb(255, 59, 59);
+}
+.header-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-input-row{
+    flex-direction: row;
+}
+.header-input-culumn{
+    flex-direction: column;
+}
+.input-group{
+    width: 290px !important;
+    height: 45px !important;
+    margin: 13px 0px !important;
+}
+.input-group input{
+    border: 1px solid #999 !important;
+    font-size: 14px;
+    color: rgb(88, 88, 88) !important;
+    background-color: white !important;
+}
+.input-group input.english-font{
+    direction: ltr;
+}
+.input-group input.persian-font{
+    direction: rtl;
+}
+.form-control[type=number]::-webkit-outer-spin-button,
+.form-control[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-control[type=number]{
+    -moz-appearance: textfield;
+}
+.header-textArea textarea{
+    margin: 13px 0;
+    border: 1px solid #999 !important;
+    font-size: 16px;
+    color: rgb(88, 88, 88) !important;
+    background-color: white !important;
+}
+.input-robot-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-not-robot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px !important;
+}
+.input-not-robot label{
+    margin-right: 10px;
+}
+.alert-box{
+    margin: 0 0 !important;
+}
+.hide-alert-box{
+    cursor: default;
+    visibility: hidden;
+    color: rgb(85, 112, 87);
+}
+.regester-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px !important;
+}
+.regester-input-btn{
+    background-color: #1faa73 !important;
+    transition: color 1s;
+    width: 97px !important;
+    color: white !important;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px !important;
+}
+.regester-input-btn:hover{
+    background-color: #1c9967 !important;
+    color: white !important;
+}
+.red-border{
+    border: 1px solid red !important;
+}
+.green-border{
+    border: 1px solid rgb(85, 112, 87) !important;
+}
+/* start modal */
+
+.first-modal-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-modal-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-modal-container-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+}
+.first-modal-container-div{
+    background-color: white;
+    width: 490px;
+    z-index: 5000 !important;
+    border-radius: 5px;
+}
+.first-modal-container-div div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 11px 15px;
+}
+.first-modal-container-div div h5{
+    color: #414141;
+}
+.first-modal-container-div div i{
+    font-size: 28px;
+    transform: translateY(-3px);
+    color: #727272;
+    cursor: pointer;
+}
+.first-modal-container-div div i:hover{
+    color: #3b3b3b;
+}
+.first-modal-container-div p{
+    margin: 11px 15px;
+    color: #575757;
+    text-align: justify;
+}
+.first-modal-container-div p span{
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all .4s;
+    padding: 0;
+    color: #414141;
+}
+.first-modal-container-div p span:hover{
+    border-bottom: #3aafe2 2px solid;
+}
+.modal-show{
+    display: flex;
+    animation: ease .5s modal-show;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+}
+@keyframes modal-show {
+    0%{
+       opacity: 0;
+    }
+    100%{
+       opacity: 1; 
+    }
+}
+.modal-hide-animation{
+    display: flex;
+    animation: ease .35s modal-hide-animation;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+}
+@keyframes modal-hide-animation {
+    0%{
+       opacity: 1;
+    }
+    100%{
+       opacity: 0; 
+    }
+}
+.modal-hide{
+    display: none;
+}
+.modal-div-animation-open{
+    animation: .4s modal-div-animation-open;
+}
+@keyframes modal-div-animation-open {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.modal-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-container-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+}
+.modal-container-div{
+    background-color: white;
+    width: 490px;
+    z-index: 5000 !important;
+    border-radius: 5px;
+}
+.modal-container-div div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 11px 15px;
+}
+.modal-container-div div h5{
+    color: #414141;
+}
+.modal-container-div div i{
+    font-size: 28px;
+    transform: translateY(-3px);
+    color: #727272;
+    cursor: pointer;
+}
+.modal-container-div div i:hover{
+    color: #3b3b3b;
+}
+.modal-container-div p{
+    margin: 11px 15px;
+    color: #575757;
+    text-align: justify;
+}
+.modal-container-div p span{
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all .4s;
+    padding: 0;
+    color: #414141;
+}
+.modal-container-div p span:hover{
+    border-bottom: #3aafe2 2px solid;
+}

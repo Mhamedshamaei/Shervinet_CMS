@@ -1,0 +1,85 @@
+
+.login-title h1{
+    margin-top: 150px;
+    color: #404040;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.login-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-input-inp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 315px !important;
+    height: 45px;
+    font-size: 12px !important;
+}
+.input-robot-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-not-robot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px !important;
+}
+.input-not-robot label{
+    margin-right: 10px;
+}
+.login-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.login-button button{
+    height: 45px;
+    transition: all .5s;
+    margin-top: 20px;
+}
+.login-button a{
+    height: 45px;
+    transition: all .5s;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-button .first-input-btn{
+    background-color: #e7ac44 !important;
+    width: 100px;
+    margin-right: 22px;
+}
+.login-button .first-input-btn:hover{
+    background-color: #d7951d !important;
+}
+.login-button .secend-input-btn{
+    background-color: #3aafe2 !important;
+    width: 150px;
+}
+.login-button .secend-input-btn:hover{
+    background-color: #1288b8 !important;
+}
+.alert-box{
+    margin: 0 0 !important;
+}
+.hide-alert-box{
+    cursor: default;
+    visibility: hidden;
+    color: rgb(85, 112, 87);
+}
+.login-input-forger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-input-forger p{
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+}

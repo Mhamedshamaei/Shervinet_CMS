@@ -1,0 +1,90 @@
+@media screen and (max-width: 991px) {
+    header nav div.container div ul li:first-child{
+        width: 100%;
+    }
+    header nav div.container div ul li:first-child hr{
+        width: 100%;
+        height: 3px;
+        color: black !important;
+        margin-bottom: 20px;
+    }
+    #ourAbility-div{
+        margin-top: 150px;
+    }
+    .ourAbility{
+        margin: 10px 0;
+    }
+    .about-percent{
+        transform: translateX(0);
+    }
+    .about-percent-animatio{
+        transform: translateX(0);
+        animation: 1s about-percent-animation;
+    }
+    @keyframes about-percent-animation {
+        0%{
+            transform: translateX(20px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    #footer .container{
+        display: contents;
+    }
+    .footer-text{
+        height: 140px;
+    }
+    .footer-mail{
+        height: 140px;
+    }
+    .footer-social-media{
+        height: 140px;
+    }
+}
+@media screen and (max-width: 766px){
+    #title h1{
+        font-size: 2rem;
+    }
+    #about div.container div.about-container h1{
+        font-size: 2rem;
+        line-height: normal;
+    }
+    #circle-div{
+        margin-top: 25px;
+        margin-bottom: 35px;
+        margin-left: 0 !important;
+        margin-right: 130px !important;
+    }
+    .telegram-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .telegram-form-join{
+        position: relative;
+        left: auto;
+        margin-top: 7px;
+    }
+    #telegram div.container .telegram-icon a{
+        width: 93px;
+    }
+    #telegram div.container .telegram-icon a img{
+        width: 93px;
+    }
+    .question-text h4{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 440px){
+    .footer-text div p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 330px){
+    .footer-text div p{
+        font-size: 9px;
+    }
+}

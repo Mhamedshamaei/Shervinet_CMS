@@ -1,0 +1,20 @@
+#info{
+    margin-top: 150px;
+}
+#info div.container div.info-title h1{
+    color: #404040;
+}
+#info div.container div.info-title p{
+    color: gray;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.info-description{
+    margin-top: 35px !important;
+}
+#accordionExample:last-child{
+    margin-bottom: 50px;
+}
+.info-div-accordion div div span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
