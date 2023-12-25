@@ -1,3 +1,5 @@
+// github.com/Mhamedshamaei/Shervinet_CMS
+
 const regesterBtn = document.querySelector('.regester-input-btn')
 const emailInput = document.querySelector('.email-input')
 const passworldInput = document.querySelector('.password-input')
