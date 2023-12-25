@@ -1,3 +1,5 @@
+// github.com/Mhamedshamaei/Shervinet_CMS
+
 const loginBtn = document.querySelector('.secend-input-btn')
 const emailInput = document.querySelector('.emailInput')
 const chekBox = document.querySelector('.form-check-input')
