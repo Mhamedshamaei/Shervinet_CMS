@@ -1,3 +1,5 @@
+// github.com/Mhamedshamaei/Shervinet_CMS
+
 // start diable prop
 $(document).ready(function () {
     $("#mobile-menu-button").on("click", function() {
