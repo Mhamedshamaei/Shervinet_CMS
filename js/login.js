@@ -1,3 +1,5 @@
+// github.com/Mhamedshamaei/Shervinet_CMS
+
 const emailInput = document.querySelector('.emailInput')
 const passwordInput = document.querySelector('.passwordInput')
 const loginBtn = document.querySelector('.login-input-btn')
